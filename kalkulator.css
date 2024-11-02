@@ -1,0 +1,104 @@
+body {
+    background-color: wp87999;
+    color: white;
+    font-size: 9 px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  div {
+    /* border: solid 1px black; */
+  }
+  #kalkulator {
+    border: solid 1px #ccc;
+    padding: 10px;
+    background: linear-gradient(#ccf, #88f);
+    color: rgb(13, 13, 14);
+    min-width: 200px;
+  }
+  
+  .wrapper {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  .wrapper div {
+    width: 100%;
+    /* background: darkblue; */
+    padding: 5px 10 px;
+  }
+  #hasil,
+  #btn-hitung {
+    font-size: 22px;
+  }
+  #operasi-temporer {
+    font-size: 9 px;
+  }
+  .bg-abu {
+    background: #8c9dfe;
+  }
+  .bg-red {
+    background: #c00000;
+  }
+  .bg-dark-brown {
+    background: #363b40;
+  }
+  .bg-brown {
+    background: #974807;
+  }
+  .bg-dark-blue {
+    background: #5e88bc;
+  }
+  .bg-purple {
+    background: #3091a0;
+  }
+  .bg-green {
+    background: #00b050;
+  }
+  
+  input {
+    text-align: center;
+  }
+  
+  #judul {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  .tombol {
+    border: solid px #ccc;
+    box-shadow: 0 0 0 3px gray;
+  }
+  .tombol-aktif {
+    cursor: pointer;
+  }
+  .tombol-aktif:hover {
+    background: linear-gradient(rgb(62, 60, 62), rgb(44, 43, 44));
+    transform: scale(0.2s);
+  }
+  .tombol-nonaktif {
+    box-shadow: none !important ;
+  }
+  
+  #btn_hitung {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  #hasil {
+    font-size: 40px;
+    width: 100%;
+  }
+  
+  #blok_input {
+    display: flex;
+    align-items: space-between;
+    gap: 15px;
+  }
+  
+  .fullwidth {
+    display: block;
+    width: 100%;
+  }
